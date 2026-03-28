@@ -8,11 +8,13 @@
         <version>4.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.example</groupId>
     <artifactId>spring-ai-alibaba</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-ai-alibaba</name>
     <description>spring-ai-alibaba</description>
+    <packaging>pom</packaging>
 
     <properties>
         <spring-ai.version>1.0.0</spring-ai.version>
@@ -52,7 +54,6 @@
             <groupId>com.alibaba.cloud.ai</groupId>
             <artifactId>spring-ai-alibaba-starter-dashscope</artifactId>
         </dependency>
-
     </dependencies>
 
     <build>
